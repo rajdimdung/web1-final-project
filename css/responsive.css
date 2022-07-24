@@ -1,0 +1,25 @@
+@media (max-width: 768px) { 
+	.mob-view{ text-align: center; }
+	.welcome-intro{width: 100%;}
+	.welcome{ margin-top: 0; }
+
+	.container{ width: 100%}
+
+	[class*="col-"] {width: 100%;}
+
+	.header_wrapper {min-height:auto;} 
+
+	.nav{ margin: 0px !important; }
+
+	.nav { background-color: #FF9900; }	 
+
+	.nav li{ clear: both; width: 100%; margin: 5px 0 !important; background-color: #FF9900;border-radius: 5px; }
+
+	.nav li a{ padding: 10px;  width: inherit; display: block; border-radius: 5px; }
+
+	.nav li:last-child { background-color: none; }
+
+	.nav li a:hover{background-color: #CC0000;}
+
+	 
+}

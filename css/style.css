@@ -1,0 +1,180 @@
+@font-face{
+  font-family:'Merienda';
+  src:url("fonts/Merienda-Bold.ttf") format("ttf");
+}
+
+@font-face{
+  font-family:'Roboto Medium';
+  src: url("fonts/Roboto-Medium.ttf") format("ttf");
+}
+
+@font-face{
+  font-family:'Merienda Regular';
+  src: url("fonts/Merienda-Regular.ttf") format("ttf");
+}
+ 
+
+* {  box-sizing: border-box;}
+
+body{ margin: 0; padding:0; font-family:'Roboto Medium'; color: #333333;font-size: 18px; }
+
+ul{ margin: 0;padding: 0; list-style: none; }
+
+p{margin: 0 0 15px 0; line-height: 150%; text-align: justify;}
+
+a{text-decoration: none; outline: none;color: #032f91;}
+a:hover{outline: none; text-decoration: none; color: #FF9900;}
+
+h1,h2,h3,h4,h5,h6{color: #032f91; line-height: 130%;}
+
+.img-responsive{ max-width: 100%; height: auto; }
+
+.header_wrapper{ background-image: url('../img/cover.jpg'); 
+    clear: both;
+    padding-top: 50px;
+    background-size: cover; 
+    border-bottom: 5px solid #00599f;
+} 
+
+.home-height{ min-height: 720px; }
+.online-height{ min-height:220px ; border-bottom: 5px solid #940049; }
+
+.container{ width: 1170px;   
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.row{     
+  margin-right: -15px;
+  margin-left: -15px; 
+}
+
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.col-1 {width: 8.33%;}
+.col-2 {width: 16.66%;}
+.col-3 {width: 25%;}
+.col-4 {width: 33.33%;}
+.col-5 {width: 41.66%;}
+.col-6 {width: 50%;}
+.col-7 {width: 58.33%;}
+.col-8 {width: 66.66%;}
+.col-9 {width: 75%;}
+.col-10 {width: 83.33%;}
+.col-11 {width: 91.66%;}
+.col-12 {width: 100%;}
+
+[class*="col-"] {
+  float: left;
+  padding: 15px;  
+}  
+
+.animation-slide{ margin-top: 50px;color: #DFDFDF; }
+
+ul.nav{margin: 25px 0 0 0; padding: 0; list-style: none;}
+ul.nav li{float: left; margin: 0 10px; font-size: 20px; }
+
+ul.nav li a{ color: #FFFFFF; }
+ul.nav li a span.booking{ background-color: #940049; padding:5px 12px; border-radius: 5px; border: 1px solid #FFFFFF; transition: 2s; }
+ul.nav li a span.booking:hover{ background-color: #FF9900;}
+
+.welcome{ margin-top: -150px; }
+
+.welcome-thumb{  
+  box-shadow: 0px 0px 10px #898989; 
+  position: relative;
+  border-radius: 10px;
+  border: 5px solid #FFFFFF; 
+}
+
+.welcome-thumb::after {
+  content: "";
+  clear: both; 
+  height: 1px;
+}
+
+
+.welcome-thumb img{border-radius: 10px; margin: 0; padding: 0; height: fit-content;}
+
+.welcome-thumb h3{ 
+    position: absolute; 
+    top:50%; 
+    right: 0; 
+    padding: 6px 10px;
+    background-color: #6f0037;
+    color: #FFFFFF;
+    width: 320px;
+    transition-property: width;
+    transition-duration: 1.2s;
+    transform: translateY(-50%);
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+  }
+.welcome-thumb:hover h3{ width: 350px;  }
+
+.welcome-intro{width: 70%; margin: 0 auto; text-align:center; }
+.welcome-intro p{ margin-bottom:35px; }
+
+
+.popular-destination{
+    padding-top: 25px;
+    padding-bottom: 25px;
+    background-color: #fafafa;
+}
+
+.about-us-bg{ background-color: #e9e9e9; }
+.mt-8848-logo { 
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    background-color: #dbdbdb;
+    color: #7e7e7e;
+    border: 5px solid #fbfbfb;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 50px 0 50px 0;
+    box-shadow: 0 0 15px #979797;
+  }
+ 
+
+.pop-dest{ box-shadow: 0px 0px 10px #898989;}
+.pop-desc{ padding:10px 15px; }
+.pop-desc h3{ padding: 0px; margin: 0px 0 10px 0;font-size: 20px; }
+.footer-wrapper{ padding:30px; background-color: #222222; color:#DFDFDF; }
+.text-center{ text-align: center; }
+
+.vlog_wrapper{ padding-top:25px; padding-top: 25px; }
+.trekking-title{ line-height: 120%; }
+.trekking-title span{ font-size: 20px; color: #777777; }
+
+ul.social-share li{ float: left; margin: 0 10px; }
+ul.social-share li a{ color: #DFDFDF; }
+
+.copyright{ padding: 20px; }
+.copyright p{ margin-bottom: 0; }
+.footer-wrapper  h3{ color: #FFFFFF; text-decoration: underline; }
+
+
+.gallery-grid-view{ margin-bottom: 25px;  }
+.default-margin{ margin-bottom: 25px; }
+
+
+.online-booking{ margin-bottom: 30px; }
+.cbox{ clear: both; margin-bottom: 15px; }
+
+.cbox label{ margin:0 0 15px 0; }
+.cbox input{ padding: 10px; border:1px solid #dfdfdf; border-radius: 3px; margin-top: 5px;}
+
+input[type="text"]{ border:1px solid #DFDFDF; width: 100%; font-size: 16px; color: #999999; } 
+select{ padding: 10px; border:1px solid #dfdfdf; border-radius: 3px; margin-top: 5px; width: 100%; font-size: 16px; color: #999999; }
+textarea{ padding: 10px; border:1px solid #dfdfdf; border-radius: 3px; margin-top: 5px; width: 100%;  font-size: 16px; color: #999999;}
+.bullet{ list-style: disc; margin: 10px; padding: 10px; }
+.bullet li{ margin: 0 0 15px 0; }
+
+.thumb-height{ min-height: 450px; }
