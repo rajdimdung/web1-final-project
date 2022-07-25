@@ -16,7 +16,7 @@
 
 * {  box-sizing: border-box;}
 
-body{ margin: 0; padding:0; font-family:'Roboto Medium'; color: #333333;font-size: 18px; }
+body{ margin: 0; padding:0; font-family:'Roboto Medium', sans-serif, arial; color: #333333;font-size: 18px; }
 
 ul{ margin: 0;padding: 0; list-style: none; }
 
